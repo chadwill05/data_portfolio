@@ -11747,3 +11747,18 @@ html {
     left: -2vw;
   }
 }
+/* Dropdown on hover */
+.navbar .dropdown:hover .dropdown-menu {
+    display: block;
+}
+/* Custom CSS to show dropdown on hover */
+.navbar .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Optional: Change dropdown menu appearance on hover */
+.navbar .dropdown-menu {
+    margin-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
